@@ -1,2 +1,7 @@
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/checkout"
+  to = "http://info.cern.ch/"
+  status = 200
