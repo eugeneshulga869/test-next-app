@@ -4,3 +4,7 @@ package = "@netlify/plugin-nextjs"
 [[redirects]]
   from = "/checkout1"
   to = "https://tbd-j6.mybigcommerce.com/checkout"
+
+[[redirects]]
+  from = "/test1"
+  to = "/test2"
