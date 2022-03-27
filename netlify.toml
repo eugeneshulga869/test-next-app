@@ -8,3 +8,5 @@ package = "@netlify/plugin-nextjs"
 [[redirects]]
   from = "/test1"
   to = "/test2"
+  status = 200
+  force = true
