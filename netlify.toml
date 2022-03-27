@@ -2,7 +2,7 @@
 package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-  from = "/checkout1"
+  from = "/checkout"
   to = "https://tbd-j6.mybigcommerce.com/checkout"
   status = 200
   force = true
