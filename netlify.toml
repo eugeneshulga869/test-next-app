@@ -4,7 +4,12 @@ package = "@netlify/plugin-nextjs"
 [[redirects]]
   from = "/checkout"
   to = "https://tbd-j6.mybigcommerce.com/checkout"
-  headers = {set-cookie = "SHOP_SESSION_TOKEN=t14chakuo1ierpq5hq9pgmv846; expires=Sun, 03-Apr-2022 09:21:16 GMT; path=/; Secure; HttpOnly; SameSite=none"}
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/login"
+  to = "https://www.bigcommerce.com/"
   status = 200
   force = true
 
