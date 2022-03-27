@@ -2,6 +2,5 @@
 package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-  from = "/checkout"
-  to = "http://info.cern.ch/"
-  status = 200
+  from = "/checkout1"
+  to = "https://tbd-j6.mybigcommerce.com/checkout"
