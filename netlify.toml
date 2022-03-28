@@ -2,7 +2,7 @@
 package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-  from = "/checkout"
+  from = "/checkout*"
   to = "https://uniform9.mybigcommerce.com/cart.php"
   query = {path = ":path"}
   status = 302
