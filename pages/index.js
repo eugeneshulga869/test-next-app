@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from 'next/Link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -18,9 +18,9 @@ export default function Home() {
         </h1>
 
 
-          <a href="/checkout?action=loadInCheckout&id=c27d4d4e-128f-420b-b5ce-4c0a008bfbc5&token=d367ba0b242444db70ffdaf6b30f3b51660305fe3f70910113ca35d093e50962">
-              <h1>CHECKOUT</h1>
-          </a>
+          <Link href="/checkout?action=loadInCheckout&id=c27d4d4e-128f-420b-b5ce-4c0a008bfbc5&token=d367ba0b242444db70ffdaf6b30f3b51660305fe3f70910113ca35d093e50962">
+              <a>CHECKOUT</a>
+          </Link>
 
         <p className={styles.description}>
           Get started by editing{' '}
