@@ -5,7 +5,7 @@ package = "@netlify/plugin-nextjs"
   from = "/checkout"
   to = "https://uniform9.mybigcommerce.com/cart.php"
   query = {action = ":action", id = ":id", token = ":token"}
-  status = 200
+  status = 302
   force = true
 
 [[redirects]]
